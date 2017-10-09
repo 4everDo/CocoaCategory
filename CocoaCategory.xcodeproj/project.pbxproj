@@ -15,6 +15,9 @@
 		047AED9A1F8B603300B40A85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AED991F8B603300B40A85 /* main.m */; };
 		047AEDA41F8B603400B40A85 /* CocoaCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AEDA31F8B603400B40A85 /* CocoaCategoryTests.m */; };
 		047AEDAF1F8B603400B40A85 /* CocoaCategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AEDAE1F8B603400B40A85 /* CocoaCategoryUITests.m */; };
+		047AEDC31F8B69AC00B40A85 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AEDBF1F8B69AC00B40A85 /* UIView+Category.m */; };
+		047AEDC41F8B69AC00B40A85 /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AEDC01F8B69AC00B40A85 /* NSString+Category.m */; };
+		047AEDC51F8B69AC00B40A85 /* UIColor+AddColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AEDC11F8B69AC00B40A85 /* UIColor+AddColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		047AEDAA1F8B603400B40A85 /* CocoaCategoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaCategoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		047AEDAE1F8B603400B40A85 /* CocoaCategoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaCategoryUITests.m; sourceTree = "<group>"; };
 		047AEDB01F8B603400B40A85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047AEDBD1F8B69AC00B40A85 /* NSString+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Category.h"; sourceTree = "<group>"; };
+		047AEDBE1F8B69AC00B40A85 /* UIColor+AddColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AddColor.h"; sourceTree = "<group>"; };
+		047AEDBF1F8B69AC00B40A85 /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
+		047AEDC01F8B69AC00B40A85 /* NSString+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Category.m"; sourceTree = "<group>"; };
+		047AEDC11F8B69AC00B40A85 /* UIColor+AddColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AddColor.m"; sourceTree = "<group>"; };
+		047AEDC21F8B69AC00B40A85 /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +110,7 @@
 		047AED891F8B603300B40A85 /* CocoaCategory */ = {
 			isa = PBXGroup;
 			children = (
+				047AEDBC1F8B69AC00B40A85 /* Classes */,
 				047AED8A1F8B603300B40A85 /* AppDelegate.h */,
 				047AED8B1F8B603300B40A85 /* AppDelegate.m */,
 				047AED8D1F8B603300B40A85 /* ViewController.h */,
@@ -130,6 +140,19 @@
 				047AEDB01F8B603400B40A85 /* Info.plist */,
 			);
 			path = CocoaCategoryUITests;
+			sourceTree = "<group>";
+		};
+		047AEDBC1F8B69AC00B40A85 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				047AEDBD1F8B69AC00B40A85 /* NSString+Category.h */,
+				047AEDBE1F8B69AC00B40A85 /* UIColor+AddColor.h */,
+				047AEDBF1F8B69AC00B40A85 /* UIView+Category.m */,
+				047AEDC01F8B69AC00B40A85 /* NSString+Category.m */,
+				047AEDC11F8B69AC00B40A85 /* UIColor+AddColor.m */,
+				047AEDC21F8B69AC00B40A85 /* UIView+Category.h */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,7 +290,10 @@
 			files = (
 				047AED8F1F8B603300B40A85 /* ViewController.m in Sources */,
 				047AED9A1F8B603300B40A85 /* main.m in Sources */,
+				047AEDC31F8B69AC00B40A85 /* UIView+Category.m in Sources */,
+				047AEDC41F8B69AC00B40A85 /* NSString+Category.m in Sources */,
 				047AED8C1F8B603300B40A85 /* AppDelegate.m in Sources */,
+				047AEDC51F8B69AC00B40A85 /* UIColor+AddColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CocoaCategory/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.asa.iphone.CocoaCategory;
@@ -444,6 +471,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CocoaCategory/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.asa.iphone.CocoaCategory;
