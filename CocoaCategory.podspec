@@ -88,10 +88,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "CocoaCategory/Classes/**/*.{h,m}"
-
-  # s.public_header_files = "CocoaCategory/Classes/**/*.h"
-
+    s.source_files  = "CocoaCategory/Classes/**/*.{h,m}"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -113,8 +110,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  s.framework  = 'UIKit'
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+  s.frameworks = 'UIKit'
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
