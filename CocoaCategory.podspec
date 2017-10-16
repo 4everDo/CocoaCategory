@@ -111,6 +111,7 @@ Pod::Spec.new do |s|
   #
 
   s.frameworks = 'UIKit'
+  s.dependency "MBProgressHUD"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
