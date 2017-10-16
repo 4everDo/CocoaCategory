@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0428B8241F9463DB00B4CA59 /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0428B8231F9463DB00B4CA59 /* UIViewController+HUD.m */; };
 		047AED8C1F8B603300B40A85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AED8B1F8B603300B40A85 /* AppDelegate.m */; };
 		047AED8F1F8B603300B40A85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AED8E1F8B603300B40A85 /* ViewController.m */; };
 		047AED921F8B603300B40A85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047AED901F8B603300B40A85 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 		047AEDC31F8B69AC00B40A85 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AEDBF1F8B69AC00B40A85 /* UIView+Category.m */; };
 		047AEDC41F8B69AC00B40A85 /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AEDC01F8B69AC00B40A85 /* NSString+Category.m */; };
 		047AEDC51F8B69AC00B40A85 /* UIColor+AddColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AEDC11F8B69AC00B40A85 /* UIColor+AddColor.m */; };
+		DDB026177325D4E5042F1714 /* libPods-CocoaCategory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9492C5A74313F97B88EC62D3 /* libPods-CocoaCategory.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0428B8221F9463DB00B4CA59 /* UIViewController+HUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HUD.h"; sourceTree = "<group>"; };
+		0428B8231F9463DB00B4CA59 /* UIViewController+HUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HUD.m"; sourceTree = "<group>"; };
 		047AED871F8B603300B40A85 /* CocoaCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaCategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		047AED8A1F8B603300B40A85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		047AED8B1F8B603300B40A85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -60,6 +64,9 @@
 		047AEDC01F8B69AC00B40A85 /* NSString+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Category.m"; sourceTree = "<group>"; };
 		047AEDC11F8B69AC00B40A85 /* UIColor+AddColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AddColor.m"; sourceTree = "<group>"; };
 		047AEDC21F8B69AC00B40A85 /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		783702133EBEF11CCCA133E1 /* Pods-CocoaCategory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaCategory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CocoaCategory/Pods-CocoaCategory.debug.xcconfig"; sourceTree = "<group>"; };
+		9492C5A74313F97B88EC62D3 /* libPods-CocoaCategory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CocoaCategory.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0C8B2E6144D6FA35A46FA92 /* Pods-CocoaCategory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaCategory.release.xcconfig"; path = "Pods/Target Support Files/Pods-CocoaCategory/Pods-CocoaCategory.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDB026177325D4E5042F1714 /* libPods-CocoaCategory.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +102,8 @@
 				047AEDA21F8B603400B40A85 /* CocoaCategoryTests */,
 				047AEDAD1F8B603400B40A85 /* CocoaCategoryUITests */,
 				047AED881F8B603300B40A85 /* Products */,
+				107C791E48E5153E637D00A8 /* Pods */,
+				2E07F7C7D4DFB6559EB37E78 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,8 +161,27 @@
 				047AEDC01F8B69AC00B40A85 /* NSString+Category.m */,
 				047AEDC11F8B69AC00B40A85 /* UIColor+AddColor.m */,
 				047AEDC21F8B69AC00B40A85 /* UIView+Category.h */,
+				0428B8221F9463DB00B4CA59 /* UIViewController+HUD.h */,
+				0428B8231F9463DB00B4CA59 /* UIViewController+HUD.m */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		107C791E48E5153E637D00A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				783702133EBEF11CCCA133E1 /* Pods-CocoaCategory.debug.xcconfig */,
+				D0C8B2E6144D6FA35A46FA92 /* Pods-CocoaCategory.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2E07F7C7D4DFB6559EB37E78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9492C5A74313F97B88EC62D3 /* libPods-CocoaCategory.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,9 +191,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 047AEDB31F8B603400B40A85 /* Build configuration list for PBXNativeTarget "CocoaCategory" */;
 			buildPhases = (
+				8CB364CB79A5920D96266F60 /* [CP] Check Pods Manifest.lock */,
 				047AED831F8B603300B40A85 /* Sources */,
 				047AED841F8B603300B40A85 /* Frameworks */,
 				047AED851F8B603300B40A85 /* Resources */,
+				3EA5D112342C5903FD9A8FF1 /* [CP] Embed Pods Frameworks */,
+				A8DAF6635AC4280705C8B3E5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -283,6 +315,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3EA5D112342C5903FD9A8FF1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CocoaCategory/Pods-CocoaCategory-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CB364CB79A5920D96266F60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CocoaCategory-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8DAF6635AC4280705C8B3E5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CocoaCategory/Pods-CocoaCategory-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		047AED831F8B603300B40A85 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -293,6 +376,7 @@
 				047AEDC31F8B69AC00B40A85 /* UIView+Category.m in Sources */,
 				047AEDC41F8B69AC00B40A85 /* NSString+Category.m in Sources */,
 				047AED8C1F8B603300B40A85 /* AppDelegate.m in Sources */,
+				0428B8241F9463DB00B4CA59 /* UIViewController+HUD.m in Sources */,
 				047AEDC51F8B69AC00B40A85 /* UIColor+AddColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -454,6 +538,7 @@
 		};
 		047AEDB41F8B603400B40A85 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 783702133EBEF11CCCA133E1 /* Pods-CocoaCategory.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +553,7 @@
 		};
 		047AEDB51F8B603400B40A85 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0C8B2E6144D6FA35A46FA92 /* Pods-CocoaCategory.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
